@@ -1,0 +1,151 @@
+C:\Users\kkutu\source\repos\BitServices\BitServices\bin\Debug\BitServices.exe.config
+C:\Users\kkutu\source\repos\BitServices\BitServices\bin\Debug\BitServices.exe
+C:\Users\kkutu\source\repos\BitServices\BitServices\bin\Debug\BitServices.pdb
+C:\Users\kkutu\source\repos\BitServices\BitServices\bin\Debug\Google.Protobuf.dll
+C:\Users\kkutu\source\repos\BitServices\BitServices\bin\Debug\MySql.Data.dll
+C:\Users\kkutu\source\repos\BitServices\BitServices\bin\Debug\Google.Protobuf.xml
+C:\Users\kkutu\source\repos\BitServices\BitServices\bin\Debug\MySql.Data.xml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.csprojAssemblyReference.cache
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\MainWindow.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ClientManagement.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorManagement.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorPayment.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\EmployeeManagement.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\JobRequestManagement.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\MainWindowView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\SkillManagement.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\App.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices_MarkupCompile.cache
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices_MarkupCompile.lref
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\MainWindow.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ClientManagement.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorManagement.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorPayment.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\EmployeeManagement.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\JobRequestManagement.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\MainWindowView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\SkillManagement.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.g.resources
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.Properties.Resources.resources
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.csproj.GenerateResource.cache
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.csproj.CoreCompileInputs.cache
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.csproj.CopyComplete
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.exe
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\BitServices.pdb
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\MainWindowPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\MainWindowPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ClientManagementPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ClientManagementPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\MainPage.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\MainPage.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\AvailabilityPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorManagementPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorPaymentPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\EmployeeManagementPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\JobAssignmentPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\SkillManagementPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\AvailabilityPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorManagementPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorPaymentPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\EmployeeManagementPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\JobAssignmentPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\SkillManagementPageView.baml
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorSkillManagementPageView.g.cs
+C:\Users\kkutu\source\repos\BitServices\BitServices\obj\Debug\View\ContractorSkillManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\bin\Debug\BitServices.exe.config
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\bin\Debug\BitServices.exe
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\bin\Debug\BitServices.pdb
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\bin\Debug\Google.Protobuf.dll
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\bin\Debug\MySql.Data.dll
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\bin\Debug\Google.Protobuf.xml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\bin\Debug\MySql.Data.xml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.csprojAssemblyReference.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\MainWindow.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\AvailabilityPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ClientManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ContractorManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ContractorPaymentPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ContractorSkillManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\EmployeeManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\MainPage.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\MainWindowPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\SkillManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\App.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices_MarkupCompile.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices_MarkupCompile.lref
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\MainWindow.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\AvailabilityPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ClientManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ContractorManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ContractorPaymentPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\ContractorSkillManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\EmployeeManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\MainPage.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\MainWindowPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\SkillManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.g.resources
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.Properties.Resources.resources
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.csproj.GenerateResource.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.csproj.CoreCompileInputs.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.csproj.CopyComplete
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.exe
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\BitServices.pdb
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\JobAssignPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\JobRequestPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\JobAssignPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\View\JobRequestPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopyPage\BitServices\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\BitServices.exe.config
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\BitServices.exe
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\BitServices.pdb
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\Google.Protobuf.dll
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\MySql.Data.dll
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\Google.Protobuf.xml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\MySql.Data.xml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.csprojAssemblyReference.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\MainWindow.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ClientManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ContractorManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\EmployeeManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\JobAssignPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\JobRequestPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\MainPage.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\MainWindowPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\SkillManagementPageView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\App.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices_MarkupCompile.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices_MarkupCompile.lref
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\MainWindow.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ClientManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ContractorManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\EmployeeManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\JobAssignPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\JobRequestPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\MainPage.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\MainWindowPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\SkillManagementPageView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.g.resources
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.Properties.Resources.resources
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.csproj.GenerateResource.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.csproj.CoreCompileInputs.cache
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.csproj.CopyComplete
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.exe
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\BitServices.pdb
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ClientAddress.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ClientAddress.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\AvailabilityView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\AvailabilityView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ContractorSkillView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ContractorSkillView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ClientJobRequestView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\ClientJobRequestView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\Roster.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\Roster.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\PreferredSuburbView.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\PreferredSuburbView.baml
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\MainPage1.g.cs
+C:\Users\kkutu\source\repos\Diploma C# Project\WorkingCopy\BitServices\obj\Debug\View\MainPage1.baml

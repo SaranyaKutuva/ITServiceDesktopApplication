@@ -1,0 +1,87 @@
+﻿<Page x:Class="BitServices.View.ClientManagementPageView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BitServices.View"
+      xmlns:ViewModel="clr-namespace:BitServices.ViewModel"
+      mc:Ignorable="d"
+      Title="ClientManagementPageView" Height="470">
+
+    <Viewbox>
+        <Grid Background="White" Width="1068" Height="420" Margin="0,0,0,0">
+
+            <GroupBox Header="Search" HorizontalAlignment="Left" Height="74" Margin="779,331,0,0" VerticalAlignment="Top" Width="279" FontWeight="Bold" BorderBrush="#FFCFCF19"/>
+
+            <GroupBox Header="Actions" HorizontalAlignment="Left" Height="90" VerticalAlignment="Top" Width="279" FontWeight="Bold" BorderBrush="#FFCFCF19" Margin="778,237,0,0"/>
+
+            <GroupBox Header="Personal Information" HorizontalAlignment="Left" Margin="13,239,0,0" Width="757" FontWeight="Bold" BorderBrush="#FFCFCF19" Height="169" VerticalAlignment="Top"/>
+
+
+            <DataGrid Name="clientDG" SelectedIndex="0" IsReadOnly="True" IsSynchronizedWithCurrentItem="True" Background="white" Margin="13,15,11,186" BorderBrush="#FFCFCF19" AutoGenerateColumns="False" SelectedItem="{Binding SelectedClient}" ItemsSource="{Binding ClientCollection}" SelectionChanged="clientDG_SelectionChanged">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Client ID" Binding="{Binding ClientID,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="User Name" Binding="{Binding UserName,UpdateSourceTrigger=PropertyChanged}"/>
+
+                    <DataGridTextColumn Header="Company Name" Binding="{Binding CompanyName,UpdateSourceTrigger=PropertyChanged}"/>
+                    <!--<DataGridTextColumn Header="Location ID" Binding="{Binding LocationID,UpdateSourceTrigger=PropertyChanged}"/>-->
+                    <!--<DataGridTextColumn Header="Location Name" Binding="{Binding LocationName,UpdateSourceTrigger=PropertyChanged}"/>-->
+                    <DataGridTextColumn Header="FirstName" Binding="{Binding FirstName,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="LastName" Binding="{Binding LastName,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Gender" Binding="{Binding Gender,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Date Of Birth" Binding="{Binding DOB, StringFormat='d/MM/yyyy', UpdateSourceTrigger=PropertyChanged}"/>
+
+                    <!--<DataGridTextColumn Header="Street" Binding="{Binding Street,UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Suburb" Binding="{Binding Suburb,UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="State" Binding="{Binding State,UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Postcode" Binding="{Binding PostCode,UpdateSourceTrigger=PropertyChanged}"/>-->
+                    <!--<DataGridTextColumn Header="licenceNumber" Binding="{Binding LicNum}"/>-->
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email,UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Contact Number" Binding="{Binding MobileNumber,UpdateSourceTrigger=PropertyChanged}"/>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+            <Button Content="Clear" Visibility="Hidden" HorizontalAlignment="Left" Margin="290,33,0,0" VerticalAlignment="Top" Width="75" Height="27" FontFamily="Sitka Text" FontSize="14" Background="#FF36486B" Foreground="White"/>
+            <Button Content="Search"  Command="{Binding Search}" HorizontalAlignment="Left" Margin="981,373,0,0" VerticalAlignment="Top" Width="59" RenderTransformOrigin="0.533,-0.191" Height="23" Background="#FF36486B" Foreground="White" FontFamily="Sitka Banner" FontSize="14"/>
+            <Button Content="Delete" IsEnabled="{Binding IsEnabledDelete}" Command="{Binding Delete}" HorizontalAlignment="Left" Margin="938,258,0,0" VerticalAlignment="Top" Width="75" Height="27" FontFamily="Sitka Text" FontSize="14" Background="#FF36486B" Foreground="White"/>
+            <Button Content="Save" IsEnabled="{Binding IsEnabledSave}" Command="{Binding Save}" HorizontalAlignment="Left" Margin="812,291,0,0" VerticalAlignment="Top" Width="76" Height="28" RenderTransformOrigin="0.68,0.008" FontFamily="Sitka Text" Background="#FF36486B" Foreground="White" FontSize="14"/>
+            <Button Content="Add"   IsEnabled="{Binding IsEnabledAdd}" Command="{Binding Add}"   HorizontalAlignment="Left" Margin="813,259,0,0" VerticalAlignment="Top" Width="75" Height="26" FontFamily="Sitka Text" FontSize="14" Background="#FF36486B" Foreground="White"/>
+            <TextBox Text="{Binding ClientSearchString}"  HorizontalAlignment="Left" Height="23" Margin="793,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
+            <TextBox DataContext="{Binding SelectedClient}"  Text="{Binding ClientID, UpdateSourceTrigger=PropertyChanged}"   HorizontalAlignment="Left" Height="23" Margin="115,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" IsEnabled="False"/>
+            <TextBox DataContext="{Binding SelectedClient}"  Text="{Binding FirstName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="23" Margin="115,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+            <TextBox DataContext="{Binding SelectedClient}"  Text="{Binding LastName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="23" Margin="115,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+            <DatePicker x:Name="ClientDOB" DataContext="{Binding SelectedClient}" SelectedDate="{Binding DOB,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="479,255,0,0" VerticalAlignment="Top" Width="280" CalendarOpened="ClientDOB_CalendarOpened"/>
+
+            <TextBox DataContext="{Binding SelectedClient}" Text="{Binding MobileNumber, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="23" Margin="479,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+            <TextBox DataContext="{Binding SelectedClient}" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="23" Margin="479,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" RenderTransformOrigin="0.225,-0.043"/>
+            <Label Content="Client Id" HorizontalAlignment="Left" Margin="61,255,0,0" VerticalAlignment="Top"/>
+            <Label Content="*First Name" HorizontalAlignment="Left" Margin="44,307,0,0" VerticalAlignment="Top"/>
+            <Label Content="*Last Name" HorizontalAlignment="Left" Margin="45,335,0,0" VerticalAlignment="Top"/>
+            <Label Content="Date Of Birth" HorizontalAlignment="Left" Margin="401,254,0,0" VerticalAlignment="Top"/>
+
+            <Label Content="*Phone No" HorizontalAlignment="Left" Margin="414,306,0,0" VerticalAlignment="Top"/>
+            <Label Content="*Email Id" HorizontalAlignment="Left" Margin="425,337,0,0" VerticalAlignment="Top"/>
+            <ComboBox    
+           SelectedValue="{Binding SelectedClientCols, Mode=TwoWay}" ItemsSource="{Binding ClientColRows}" SelectedIndex="0"  SelectedValuePath = "COLUMN_NAME" DisplayMemberPath = "FRIENDLY_NAMES" HorizontalAlignment="Left" Margin="792,348,0,0" VerticalAlignment="Top" Width="248" SelectionChanged="ComboBox_SelectionChanged">
+
+            </ComboBox>
+            <TextBox  DataContext="{Binding SelectedClient}" Text="{Binding CompanyName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="23" Margin="115,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+            <Label Content="*Company Name" HorizontalAlignment="Left" Margin="16,281,0,0" VerticalAlignment="Top"/>
+            <ComboBox   DataContext="{Binding SelectedClient}"  Text="{Binding Gender, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="479,283,0,0" VerticalAlignment="Top" Width="280">
+
+                <RadioButton Content="Male"/>
+                <RadioButton Content="Female"/>
+                <RadioButton Content="Other"/>
+
+            </ComboBox>
+            <Label Content="*Gender" HorizontalAlignment="Left" Margin="428,280,0,0" VerticalAlignment="Top"/>
+            <Button x:Name="btnAddress"  IsEnabled="{Binding IsEnabledAddress}"  Content="Address" HorizontalAlignment="Left" Margin="939,291,0,0" VerticalAlignment="Top" Width="74" Height="30" FontFamily="Sitka Text" FontSize="14" Background="#FF36486B" Foreground="White" Click="btnAddress_Click" RenderTransformOrigin="0.125,0.259"/>
+            <!--<Label Content="User Name" HorizontalAlignment="Left" Margin="47,365,0,0" VerticalAlignment="Top"/>-->
+            <!--<TextBox IsEnabled="False" DataContext="{Binding SelectedClient}"  Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="23" Margin="115,369,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>-->
+            <Button x:Name="btnNewJobRequest"  IsEnabled="{Binding IsEnabledNewjob}"  Content="New Job Request"  HorizontalAlignment="Left" Margin="331,372,0,0" VerticalAlignment="Top" Width="182" Height="28" RenderTransformOrigin="0.68,0.008" FontFamily="Sitka Text" Background="#FF36486B" Foreground="White" FontSize="14" Click="btnNewJobRequest_Click"/>
+
+        </Grid>
+    </Viewbox>
+</Page>

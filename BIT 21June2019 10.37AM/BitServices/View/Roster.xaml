@@ -1,0 +1,113 @@
+﻿<Window x:Class="BitServices.View.Roster"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BitServices.View"
+        mc:Ignorable="d"
+        Title="Roster" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Basic Details" HorizontalAlignment="Left" Height="179" Margin="31,72,0,0" VerticalAlignment="Top" Width="341" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="63" Margin="9,5,0,0"   VerticalAlignment="Top" Width="773" Source="/BitServices;component/BitLogo_YellowBlue_1.png" Stretch="UniformToFill"/>
+        <Label Content="Availability Id" IsEnabled="True" HorizontalAlignment="Left" Margin="54,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.838,0.423"/>
+        <TextBox DataContext="{Binding SelectedAvailability}" Text="{Binding AvailID}"   HorizontalAlignment="Left" Height="23" Margin="133,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" IsEnabled="False"/>
+        <TextBox DataContext="{Binding SelectedAvailability}" Text ="{Binding ContractorID}" HorizontalAlignment="Left" Height="23" Margin="133,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" RenderTransformOrigin="-0.077,1.053"/>
+        <Label Content="Contractor ID" HorizontalAlignment="Left" Margin="54,123,0,0" VerticalAlignment="Top"/>
+        <DatePicker      DataContext="{Binding SelectedAvailability, Mode=TwoWay}" SelectedDate="{Binding StartDate}" x:Name="dtStartDate" HorizontalAlignment="Left" Margin="133,154,0,0" VerticalAlignment="Top" Width="220"  CalendarOpened="dtStartDate_CalendarOpened" Loaded="dtStartDate_Loaded"/>
+        <Label Content="Start Date" HorizontalAlignment="Left" Margin="71,155,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboMonST" SelectedIndex="0" DataContext="{Binding SelectedAvailability}" Text="{Binding MondayST, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="134,184,0,0" VerticalAlignment="Top" Width="80">
+            <ComboBoxItem Content="09:00:00"/>
+            <ComboBoxItem Content="09:30:00"/>
+            <ComboBoxItem Content="10:00:00"/>
+            <ComboBoxItem Content="10:30:00"/>
+            <ComboBoxItem Content="11:00:00"/>
+            <ComboBoxItem Content="11:30:00"/>
+            <ComboBoxItem Content="12:00:00"/>
+            <ComboBoxItem Content="12:30:00"/>
+            <ComboBoxItem Content="13:00:00"/>
+            <ComboBoxItem Content="13:30:00"/>
+            <ComboBoxItem Content="14:00:00"/>
+            <ComboBoxItem Content="14:30:00"/>
+            <ComboBoxItem Content="15:00:00"/>
+            <ComboBoxItem Content="15:30:00"/>
+            <ComboBoxItem Content="16:00:00"/>
+            <ComboBoxItem Content="16:30:00"/>
+            <ComboBoxItem Content="17:00:00"/>
+
+
+
+
+
+
+
+        </ComboBox>
+        <ComboBox x:Name="cboMonET"  DataContext="{Binding SelectedAvailability}" Text="{Binding MondayET}" HorizontalAlignment="Left" Margin="135,215,0,0" VerticalAlignment="Top" Width="80">
+
+            <ComboBoxItem Content="11:00:00"/>
+            <ComboBoxItem Content="11:30:00"/>
+            <ComboBoxItem Content="12:00:00"/>
+            <ComboBoxItem Content="12:30:00"/>
+            <ComboBoxItem Content="13:00:00"/>
+            <ComboBoxItem Content="13:30:00"/>
+            <ComboBoxItem Content="14:00:00"/>
+            <ComboBoxItem Content="14:30:00"/>
+            <ComboBoxItem Content="15:00:00"/>
+            <ComboBoxItem Content="15:30:00"/>
+            <ComboBoxItem Content="16:00:00"/>
+            <ComboBoxItem Content="16:30:00"/>
+            <ComboBoxItem Content="17:00:00"/>
+            <ComboBoxItem Content="17:30:00"/>
+            <ComboBoxItem Content="18:00:00"/>
+            <ComboBoxItem Content="18:30:00"/>
+            <ComboBoxItem Content="19:00:00"/>
+            <ComboBoxItem Content="19:30:00"/>
+            <ComboBoxItem Content="20:00:00"/>
+        </ComboBox>
+        <Label Content="Start Time" HorizontalAlignment="Left" Margin="65,184,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Content="End Time" HorizontalAlignment="Left" Margin="71,212,0,0" VerticalAlignment="Top" Width="58"/>
+        <DataGrid SelectedItem="{Binding SelectedAvailability, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsSynchronizedWithCurrentItem="True"    AutoGenerateColumns="False"  SelectedIndex="0"   ItemsSource="{Binding AvailCollection}"    HorizontalAlignment="Left" Height="321" Margin="389,83,0,0" VerticalAlignment="Top" Width="391">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Availability Id" Binding="{Binding availID, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Contractor Id" Binding="{Binding ContractorID, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <DataGridTextColumn Header="Available Date" Binding="{Binding Avail_Date, UpdateSourceTrigger=PropertyChanged}"/>
+                <!--<DataGridTextColumn Header="ET" Binding="{Binding EndDate, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridCheckBoxColumn Header="Mon" Binding="{Binding Monday, UpdateSourceTrigger=PropertyChanged}"/>-->
+
+                <DataGridTextColumn Header="Start Time" Binding="{Binding MondayST, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="End Time" Binding="{Binding MondayET, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <!--<DataGridCheckBoxColumn Header="Tue" Binding="{Binding Tuesday, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Tue ST" Binding="{Binding TuesdayST, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Tue ET" Binding="{Binding TuesdayET, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <DataGridCheckBoxColumn Header="Wed" Binding="{Binding Wednesday, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Wed ST" Binding="{Binding WednesdayST, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Wed ET" Binding="{Binding WednesdayET, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <DataGridCheckBoxColumn Header="Thu" Binding="{Binding Thursday, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Thu ST" Binding="{Binding ThursdayST, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Thu ET" Binding="{Binding ThursdayET, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <DataGridCheckBoxColumn Header="Fri" Binding="{Binding Friday, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Fri ST" Binding="{Binding FridayST, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Fri ET" Binding="{Binding FridayET, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <DataGridCheckBoxColumn Header="Sat" Binding="{Binding Saturday, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Sat ST" Binding="{Binding SaturdayST, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Sat ET" Binding="{Binding SaturdayET, UpdateSourceTrigger=PropertyChanged}"/>
+
+                <DataGridCheckBoxColumn Header="Sun" Binding="{Binding Sunday, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Sun ST" Binding="{Binding SundayST, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="Sun ET" Binding="{Binding SundayET, UpdateSourceTrigger=PropertyChanged}"/>-->
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Header="Actions" HorizontalAlignment="Left" Height="67" Margin="31,287,0,0" VerticalAlignment="Top" Width="347" FontWeight="Bold"/>
+        <Button Content="Add" Command="{Binding Add}"  HorizontalAlignment="Left" Margin="45,310,0,0" VerticalAlignment="Top" Width="76" FontFamily="Sitka Text" FontSize="14" Background="#FF36486B" Foreground="White"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="285,310,0,0" VerticalAlignment="Top" Width="76" FontFamily="Sitka Text" FontSize="14" Background="#FF36486B" Foreground="White"/>
+        <Button Content="Save" Command="{Binding Save}" HorizontalAlignment="Left" Margin="165,310,0,0" VerticalAlignment="Top" Width="74" FontFamily="Sitka Text" FontSize="14" Background="#FF36486B" Foreground="White"/>
+
+    </Grid>
+</Window>
